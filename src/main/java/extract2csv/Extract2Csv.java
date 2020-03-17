@@ -12,6 +12,13 @@ import java.util.regex.Pattern;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
 
+/**
+ * A command line tool for extracting text by simple patterns to a comma
+ * separated file.
+ * 
+ * @author Tania Andersen tan -%AT%- ing -%DOT%- dk
+ *
+ */
 public class Extract2Csv {
 	private static final class TextPattern {
 		final Pattern pattern;
