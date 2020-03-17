@@ -7,7 +7,7 @@ Extract2csv is a simple and easy command line tool for extracting text patterns 
 Let’s say you have a folder with a lot of text files, extracted from pdf or Word documents with same text patterns. This command:
 
 ```sh
-extract2csv "Time of reporting*Reference number" "company name*Dept" "Describe the event*Where did the event physically occur"
+java extract2csv.Extact2Csv "Time of reporting*Reference number" "company name*Dept" "Describe the event*Where did the event physically occur"
 ```
 will extract the text where the asterisk * is into a csv-file named out.csv.
 
