@@ -13,8 +13,8 @@ import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
 
 /**
- * A command line tool for extracting text by simple patterns to a comma
- * separated file.
+ * A command line tool for extracting from text documents in a folder by simple
+ * patterns to a comma separated file.
  * 
  * @author Tania Andersen tan -%AT%- ing -%DOT%- dk
  *
@@ -29,6 +29,13 @@ public class Extract2Csv {
 		}
 	}
 
+	/**
+	 * A command line tool for extracting from text documents in a folder by simple
+	 * patterns, to a comma separated file <tt>out.csv</tt>.
+	 * 
+	 * @param args one or more patterns each containing a * as wildcard.
+	 * @throws IOException on i/o trouble.
+	 */
 	public static void main(String[] args) throws IOException {
 		if (args.length == 0) {
 			System.err.println("Usage: java extract2csv.Extract2Csv <patterns>.");
