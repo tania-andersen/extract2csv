@@ -58,12 +58,12 @@ public class Extract2Csv {
 		}
 		for (var file : filesInDir) {
 			var filename = file.getName();
-			final String text = Files.readString(file.toPath());
+			var text = Files.readString(file.toPath());
 			for (var pattern : patterns) {
 				pattern.matches.clear();
 				var matcher = pattern.pattern.matcher(text);
 				while (matcher.find()) {
-					for (int i = 1; i <= matcher.groupCount(); i++) {
+					for (var i = 1; i <= matcher.groupCount(); i++) {
 						var cell = matcher.group(i).strip();
 						pattern.matches.add(cell);
 					}
