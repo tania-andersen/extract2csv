@@ -20,6 +20,8 @@ import org.apache.commons.csv.CSVPrinter;
  *
  */
 public class Extract2Csv {
+	public static final String DEFAULT_OUT_FILENAME = "out.csv";
+
 	private static final class TextPattern {
 		final Pattern pattern;
 		public ArrayList<String> matches = new ArrayList<>();
@@ -41,7 +43,7 @@ public class Extract2Csv {
 			System.err.println("Usage: java extract2csv.Extract2Csv <patterns>.");
 			return;
 		}
-		var outFile = Paths.get("out.csv");
+		var outFile = Paths.get(DEFAULT_OUT_FILENAME);
 		for (var i = 0; i < args.length; i++) {
 			args[i] = args[i].replace("*", "(.*?)");
 		}
