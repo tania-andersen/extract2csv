@@ -4,6 +4,10 @@
 # Ignore Gradle build output directory
 build
 
+# But add libs directory
+!build\libs
+
 # Ignore Eclipse config
 .classpath
 .project
+/build/
