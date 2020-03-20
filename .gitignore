@@ -5,7 +5,7 @@
 build
 
 # But add libs directory
-!build\libs
+!build/libs
 
 # Ignore Eclipse config
 .classpath
