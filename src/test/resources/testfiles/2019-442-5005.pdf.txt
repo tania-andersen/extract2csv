@@ -27,11 +27,11 @@ Afdeling
 Adresse
 Flakhaven 2
 Kontaktperson (navn og titel)
-Morten Hougaard
+###### ##########
 E-mail på kontaktperson
-dpo-kontakt@odense.dk
+###################
 Telefonnummer på kontaktperson
-21684889
+########
 Er udenlandsk telefonnummer
 Internt referencenummer
 
@@ -259,11 +259,11 @@ Ja
 Nej
 Ved ikke
 Navn på evt. databeskyttelsesrådgiver (DPO)
-Morten Hougaard
+###### #########
 E-mail på DPO
-dpo-kontakt@odense.dk
+##################
 Telefonnummer på DPO
-21684889
+########
 Er udenlandsk telefonnummer
 Evt. andre aktører involveret i håndteringen af hændelsen (f.eks. Center for Cybersikkerhed, politiet etc.)
 
@@ -393,7 +393,7 @@ Referencenummer
 
 Anmelderinformation
 Anmelders navn
-Morten Hedelund Hougaard
+###### ######## #######
 Anmelders UID
 
 Identifikation af sikkerhedshændelsen
@@ -414,11 +414,11 @@ Afdeling
 Adresse
 Flakhaven 2
 Kontaktperson (navn og titel)
-Morten Hougaard
+###### ##########
 E-mail på kontaktperson
-dpo-kontakt@odense.dk
+##################
 Telefonnummer på kontaktperson
-21684889
+########
 Er udenlandsk telefonnummer
 Internt referencenummer
 
@@ -627,11 +627,11 @@ Ja
 Nej
 Ved ikke
 Navn på evt. databeskyttelsesrådgiver (DPO)
-Morten Hougaard
+###### #########
 E-mail på DPO
-dpo-kontakt@odense.dk
+##################
 Telefonnummer på DPO
-21684889
+########
 Er udenlandsk telefonnummer
 
 Skema til indberetning af sikkerhedshændelser

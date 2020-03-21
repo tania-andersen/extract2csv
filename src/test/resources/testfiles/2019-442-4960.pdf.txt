@@ -9,9 +9,9 @@ Referencenummer
 
 Anmelderinformation
 Anmelders navn
-Lene Møller Manøe
+#### ####### ####
 Anmelders UID
-CVR:29189633-RID:21813946
+CVR:#######-RID:#########
 
 Identifikation af sikkerhedshændelsen
 Er dette en uddybning af en tidligere anmeldelse?
@@ -28,11 +28,11 @@ Afdeling
 Adresse
 Skanderborg Fælled 1, 8660 Skanderborg
 Kontaktperson (navn og titel)
-Lene Møller Manøe
+#### ######## ####
 E-mail på kontaktperson
-lene.manoe@skanderborg.dk
+####################
 Telefonnummer på kontaktperson
-87947080
+########
 Er udenlandsk telefonnummer
 Internt referencenummer
 
@@ -233,11 +233,11 @@ KOMBIT A/S
 Adresse
 Halfdansgade 8, 2300 København S
 Kontaktperson hos databehandleren
-DPO Charlotte Gall
+DPO ########### ####
 E-mail på kontaktperson
-dpo-post@kombit.dk
+#################
 Telefonnummer på kontaktperson
-33349458
+########
 Er udenlandsk telefonnummer
 Angiv type
 Underleverandør
@@ -248,7 +248,7 @@ Netcompany A/S
 Adresse
 Grønningen 17, 1., 1270 København K
 Kontaktperson hos databehandleren
-Jesper Lund Andersen
+###### #### #########
 
 Skema til indberetning af sikkerhedshændelser
 
@@ -256,9 +256,9 @@ Skema til indberetning af sikkerhedshændelser
 
 Skema til indberetning af sikkerhedshændelser
 E-mail på kontaktperson
-jea@netcompany.com
+##################
 Telefonnummer på kontaktperson
-41327216
+########
 Er udenlandsk telefonnummer
 
 Databeskyttelsesrådgiver
@@ -269,9 +269,9 @@ Ved ikke
 Navn på evt. databeskyttelsesrådgiver (DPO)
 Bech-Bruun Advokatpartnerselskab
 E-mail på DPO
-dpo.skanderborg@bechbruun.com
+######################
 Telefonnummer på DPO
-72273002
+########
 Er udenlandsk telefonnummer
 Evt. andre aktører involveret i håndteringen af hændelsen (f.eks. Center for Cybersikkerhed, politiet etc.)
 
@@ -440,11 +440,11 @@ Afdeling
 Adresse
 Skanderborg Fælled 1, 8660 Skanderborg
 Kontaktperson (navn og titel)
-Lene Møller Manøe
+#### ###### ##########
 E-mail på kontaktperson
-lene.manoe@skanderborg.dk
+#######################
 Telefonnummer på kontaktperson
-87947080
+########
 Er udenlandsk telefonnummer
 Internt referencenummer
 
