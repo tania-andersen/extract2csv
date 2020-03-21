@@ -34,7 +34,7 @@ public class Extract2CsvTest {
 	}
 
 	/**
-	 * Very basic test.
+	 * Basic use case.
 	 */
 	@Test
 	public void test() {
@@ -62,6 +62,12 @@ public class Extract2CsvTest {
 			assertTrue("Missing field", fileContent.contains("onsdag november 6, 2019 14:14:01"));
 			assertTrue("Missing field", fileContent.contains("Kalundborg kommune"));
 			assertTrue("Missing field", fileContent.contains("hvis denne kode er 3"));
+			assertTrue("Missing field", fileContent.contains("torsdag november 7, 2019 09:32:32"));
+			assertTrue("Missing field", fileContent.contains("fredag november 15, 2019 08:27:28"));
+			assertTrue("Missing field", fileContent.contains("fredag november 8, 2019 11:56:09"));
+			assertTrue("Missing field", fileContent.contains("fredag november 8, 2019 13:08:49"));
+			assertTrue("Missing field", fileContent.contains("koden betyder, at billedet ikke må vises"));
+			assertTrue("Missing field", fileContent.contains("Kun ændring i antal berørte"));
 			for (var file : testfiles) {
 				Files.delete(file);
 			}

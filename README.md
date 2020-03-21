@@ -11,7 +11,7 @@ java -jar Extract2Csv.jar "Time of reporting*Reference number" "company name*Dep
 ```
 will extract the text where the asterisk * is into a csv-file named out.csv.
 
-The file name is in column one and the extracted text in the following columns, when out.csv is viewed in a spreadsheet application such as Excel or Libreoffice:
+The file name is in column one and the extracted text in the following columns, when out.csv is viewed in a spreadsheet application:
 
 |   |   |   |   |
 |---|---|---|---|
@@ -25,7 +25,7 @@ You can have as many search patterns as you want to.
 
 ## Tips
 
-Extract2csv can only read text files, but you can use command line tools such as pdftotext, doc2txt [et al](https://textract.readthedocs.io/en/stable/). to extract text from pdf, Word and other formats.
+Extract2csv can only read text files, but you can use command line tools such as [pdftotext, doc2txt et al](https://textract.readthedocs.io/en/stable/). to extract text from pdf, Word and other formats.
 
 On Linux and Windows with WSL, you can extract all pdf files in a folder with this command:
 ```sh
@@ -46,4 +46,3 @@ Dependencies: Apache Commons CSV 1.8.
 ## License
  
 The Unlicence http://unlicense.org/
-

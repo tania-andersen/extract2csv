@@ -40,7 +40,7 @@ public class Extract2Csv {
 	 */
 	public static void main(String[] args) throws IOException {
 		if (args.length == 0) {
-			System.err.println("Usage: java extract2csv.Extract2Csv <patterns>.");
+			System.err.println("Usage from jar: java -jar Extract2Csv.jar <patterns>.");
 			return;
 		}
 		var outFile = Paths.get(DEFAULT_OUT_FILENAME);
