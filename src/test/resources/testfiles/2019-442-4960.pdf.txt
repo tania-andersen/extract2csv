@@ -418,9 +418,9 @@ Referencenummer
 
 Anmelderinformation
 Anmelders navn
-Lene Møller Manøe
+#### ##### ####
 Anmelders UID
-CVR:29189633-RID:21813946
+CVR:########-RID:########
 
 Identifikation af sikkerhedshændelsen
 Er dette en uddybning af en tidligere anmeldelse?
