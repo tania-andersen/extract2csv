@@ -4,3 +4,4 @@
 # Ignore Eclipse config
 .classpath
 .project
+/build/

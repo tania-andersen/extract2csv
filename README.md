@@ -1,3 +1,5 @@
+![Java CI with Gradle](https://github.com/tania-andersen/extract2csv/workflows/Java%20CI%20with%20Gradle/badge.svg)
+
 # Extract2csv
 
 Extract2csv is a simple and easy command line tool for extracting text patterns from files to a comma separated file (csv).
