@@ -53,6 +53,8 @@ For Linux program:
 
 ```sh
 wget https://github.com/tania-andersen/extract2csv/raw/master/build/native-image/extract2csv
+sudo cp extract2csv /usr/local/bin
+sudo chmod a+rx /usr/local/bin/extract2csv
 ```
 
 ## Source code
