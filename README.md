@@ -9,7 +9,7 @@ Extract2csv is a simple and easy command line tool for extracting text patterns 
 Let’s say you have a folder with a lot of text files, extracted from pdf or Word documents with same text patterns. This command:
 
 ```sh
-java -jar Extract2Csv.jar "Time of reporting*Reference number" "company name*Dept" "Describe the event*Where did the event physically occur"
+extract2csv "Time of reporting*Reference number" "company name*Dept" "Describe the event*Where did the event physically occur"
 ```
 will extract the text where the asterisk * is into a csv-file named out.csv.
 
@@ -35,9 +35,25 @@ for file in *.pdf; do pdftotext "$file"
 ```
 ## Binaries
 
-An executable jar is here: https://github.com/tania-andersen/extract2csv/blob/master/build/libs/Extract2Csv.jar
+A Linux program is here: https://github.com/tania-andersen/extract2csv/tree/master/build/native-image 
 
 Run as in the example above.
+
+An executable jar is here: https://github.com/tania-andersen/extract2csv/blob/master/build/libs/Extract2Csv.jar
+
+Run as:
+
+```sh
+java -jar Extract2Csv.jar "Time of reporting*Reference number" "company name*Dept" "Describe the event*Where did the event physically occur"
+```
+
+## Installation
+
+For Linux program:
+
+```sh
+wget https://github.com/tania-andersen/extract2csv/raw/master/build/native-image/extract2csv
+```
 
 ## Source code
 
