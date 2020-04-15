@@ -11,7 +11,7 @@ jobs:
       - name: setup-native-image
         run: |
           gu install native-image
-      - name whereami
+      - name: whereami
         run: pwd
       - name: ehhhhhh    
         uses: actions/checkout@v2
@@ -19,7 +19,7 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 11
-      - name whereami2
+      - name: whereami2
         run: pwd
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
