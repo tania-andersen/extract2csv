@@ -8,11 +8,13 @@ jobs:
         with:
           graalvm-version: "19.3.0"
           java-version: "java11"
+      - name: whereami
+        run: pwd
+      - name: whereami
+        run: pwd
       - name: setup-native-image
         run: |
           gu install native-image
-      - name: whereami
-        run: pwd
       - name: ehhhhhh    
         uses: actions/checkout@v2
       - name: Set up JDK 11
