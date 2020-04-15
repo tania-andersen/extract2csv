@@ -1,15 +1,20 @@
 plugins {
     id 'java'
+    
+    id "org.mikeneck.graalvm-native-image" version "0.3.0"
 }
 
 repositories {
     jcenter()
+    mavenCentral()
 }
 
 dependencies { 
    implementation group: 'org.apache.commons', name: 'commons-csv', version: '1.8'
     
    testImplementation 'junit:junit:4.12'
+   
+   implementation 'org.slf4j:slf4j-simple:1.7.28'
 }
 
 jar {
@@ -27,6 +32,12 @@ test {
     testLogging {
         showStandardStreams = true
     }
+}
+
+nativeImage {
+  graalVmHome = 'graalvm'
+  mainClass = 'extract2csv.Extract2Csv'
+  executableName = 'extract2csv'
 }
 
 compileJava.options.encoding = "UTF-8"
