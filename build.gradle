@@ -35,7 +35,7 @@ test {
 }
 
 nativeImage {
-  graalVmHome = 'graalvm'
+  graalVmHome = '/home/runner/work/_temp/_github_home/graalvm' // Midlertidigt hardcodet til Github-setup.
   mainClass = 'extract2csv.Extract2Csv'
   executableName = 'extract2csv'
 }
